@@ -1,0 +1,1691 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="Init" type="InitTab" active="false" scrollx="20" scrolly="0" scale="0.9"></tab>
+  <tab name="New Tab" type="CommonTab" active="true" scrollx="1417.3987447452419" scrolly="-542.2743974988466" scale="0.7959893115433262">
+    <variables xmlns="https://developers.google.com/blockly/xml">
+      <variable id="C6T9$JERroP`)n4)*:`N">animar</variable>
+      <variable id="9Efnov3AMydz@F($K?p`">click</variable>
+      <variable id="]a5bZtiBb,?*$I*m(dTx">video 1</variable>
+    </variables>
+    <block xmlns="https://developers.google.com/blockly/xml" type="createCSSRule" id="ZrjzNYXvd%+8[*EF)7?#" x="-2730" y="-1150">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" mediaruleslot="false"></mutation>
+      <field name="PARENT">FALSE</field>
+      <value name="CSS_RULE">
+        <shadow type="text" id="L-575n*MAgMm@DqgpL9n">
+          <field name="TEXT">.botonCSS3</field>
+        </shadow>
+      </value>
+      <value name="CSS_RULE_CONT">
+        <shadow type="cssStyleList" id="Vo$E@~WYczFodtKPLZek">
+          <mutation xmlns="http://www.w3.org/1999/xhtml">
+            <prop name="color" shadowvalue="null"></prop>
+          </mutation>
+          <value name="PROP0">
+            <shadow type="text" id="%kER,2{RnNk~04{-KZ08">
+              <field name="TEXT">red</field>
+            </shadow>
+          </value>
+        </shadow>
+        <block type="textMultiline" id="ueT7Jn,D%sigFE`9q6FR">
+          <field name="HIGHLIGHT_MODE">css</field>
+          <field name="TEXT" editor-height="9" editor-width="544.5555555555555">width: 32px;&amp;#10;height: 32px;&amp;#10;background-color: purple;&amp;#10;top: 0px;&amp;#10;left: 0px;&amp;#10;cursor: pointer;&amp;#10;border-radius: 16px</field>
+        </block>
+      </value>
+      <next>
+        <block type="addHTMLElement" id="/)5yUMl5^QQ53nG~?783">
+          <field name="ELEMENT">div</field>
+          <field name="MODE">TO</field>
+          <field name="PARENT">FALSE</field>
+          <value name="ID">
+            <shadow type="text" id=";Kdk45p2QK|zdmQ@_T]S">
+              <field name="TEXT">boton3</field>
+            </shadow>
+          </value>
+          <value name="TARGET_ID">
+            <shadow type="DOMObjectSelector" id="?,{N8[mKCqIqh@R.?Dr4">
+              <field name="DOM_OBJECT">CONTAINER</field>
+            </shadow>
+          </value>
+          <next>
+            <block type="setHTMLElemAttribute" id="-QA*}hg1#c2DOoL*Fp,w">
+              <field name="ATTRIBUTE">className</field>
+              <field name="PARENT">FALSE</field>
+              <value name="VALUE">
+                <shadow type="text" id="yz(jNV$.8y.l/SKKbyB8">
+                  <field name="TEXT">botonCSS3</field>
+                </shadow>
+              </value>
+              <value name="ID">
+                <shadow type="text" id="%%.]{@$%XhVKBA]l1rhs">
+                  <field name="TEXT">boton3</field>
+                </shadow>
+              </value>
+              <next>
+                <block type="bindHTMLObject" id="k5qobVY}y1qPS^_KPaxt">
+                  <field name="PARENT">FALSE</field>
+                  <value name="ID">
+                    <shadow type="text" id="^$%KOlTLw_pU,Hi=W3|a">
+                      <field name="TEXT">boton3</field>
+                    </shadow>
+                  </value>
+                  <value name="OBJECTINPUT">
+                    <shadow type="objectList" id=",@8H4jN+Q~4=L4L{D~Q*">
+                      <field name="FIELDNAME">campin3</field>
+                    </shadow>
+                  </value>
+                  <next>
+                    <block type="eventHTMLElem" id="dm_{*$_%,m-D/~]+q^tb">
+                      <field name="EVENT">click</field>
+                      <field name="PARENT">FALSE</field>
+                      <value name="ID">
+                        <shadow type="text" id="lGek]J+zm,1RPE@a4-xD">
+                          <field name="TEXT">boton3</field>
+                        </shadow>
+                      </value>
+                      <statement name="DO">
+                        <block type="tweenCameraExt" id="H{T:P[V@Hq#K=-ocO{^H">
+                          <mutation xmlns="http://www.w3.org/1999/xhtml" whenfinishedslot="false"></mutation>
+                          <field name="MOVEMENT_TYPE">LINEAR</field>
+                          <value name="POSITION">
+                            <block type="objectList" id="y5tKc8WYkr}^B2zjTfk/">
+                              <field name="FIELDNAME">campin3</field>
+                            </block>
+                          </value>
+                          <value name="LOOKAT">
+                            <block type="objectList" id="Jei(@iu5cEn6K(vY^rct">
+                              <field name="FIELDNAME">pin3</field>
+                            </block>
+                          </value>
+                          <value name="DURATION">
+                            <shadow type="math_number" id="B8.YPTDr(v{zRq#c$(Xj">
+                              <field name="NUM">1</field>
+                            </shadow>
+                          </value>
+                        </block>
+                      </statement>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="createCSSRule" id="5k.b4IRN,jn1(I_,o_4L" x="-1690" y="-1150">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" mediaruleslot="false"></mutation>
+      <field name="PARENT">FALSE</field>
+      <value name="CSS_RULE">
+        <shadow type="text" id="WG9wFV~(2;OH~6MiSV#D">
+          <field name="TEXT">.botonCSS4</field>
+        </shadow>
+      </value>
+      <value name="CSS_RULE_CONT">
+        <shadow type="cssStyleList" id="Vo$E@~WYczFodtKPLZek">
+          <mutation xmlns="http://www.w3.org/1999/xhtml">
+            <prop name="color" shadowvalue="null"></prop>
+          </mutation>
+          <value name="PROP0">
+            <shadow type="text" id="%kER,2{RnNk~04{-KZ08">
+              <field name="TEXT">red</field>
+            </shadow>
+          </value>
+        </shadow>
+        <block type="textMultiline" id="=Njs%:+l9$01pz/*`+(+">
+          <field name="HIGHLIGHT_MODE">css</field>
+          <field name="TEXT" editor-height="9" editor-width="544.5555555555555">width: 32px;&amp;#10;height: 32px;&amp;#10;background-image: url("./media/favicon-32x32.png");&amp;#10;top: 0px;&amp;#10;left: 0px;&amp;#10;cursor: pointer;&amp;#10;border-radius: 16px</field>
+        </block>
+      </value>
+      <next>
+        <block type="addHTMLElement" id=",IcVG})Zw{.lk~Ba#yHi">
+          <field name="ELEMENT">div</field>
+          <field name="MODE">TO</field>
+          <field name="PARENT">FALSE</field>
+          <value name="ID">
+            <shadow type="text" id="i60Qc|hj_VCcmS`O^6OK">
+              <field name="TEXT">boton4</field>
+            </shadow>
+          </value>
+          <value name="TARGET_ID">
+            <shadow type="DOMObjectSelector" id="HW+m~cC$uATL8iJuA-xB">
+              <field name="DOM_OBJECT">CONTAINER</field>
+            </shadow>
+          </value>
+          <next>
+            <block type="setHTMLElemAttribute" id="YTHY~@EN8GkZ_Ex)ay6M">
+              <field name="ATTRIBUTE">className</field>
+              <field name="PARENT">FALSE</field>
+              <value name="VALUE">
+                <shadow type="text" id=")%+04A4NupyVVAJ@kduX">
+                  <field name="TEXT">botonCSS4</field>
+                </shadow>
+              </value>
+              <value name="ID">
+                <shadow type="text" id="{6WQ,4ssDzMCrGpXDp]{">
+                  <field name="TEXT">boton4</field>
+                </shadow>
+              </value>
+              <next>
+                <block type="bindHTMLObject" id="8dXtE=2|kTbkqNV)GCNe">
+                  <field name="PARENT">FALSE</field>
+                  <value name="ID">
+                    <shadow type="text" id="Mf}HKAW$glwSF`/YVlkn">
+                      <field name="TEXT">boton4</field>
+                    </shadow>
+                  </value>
+                  <value name="OBJECTINPUT">
+                    <shadow type="objectList" id="i{B}vk;TCheZ:+]Zl`f[">
+                      <field name="FIELDNAME">campin4</field>
+                    </shadow>
+                  </value>
+                  <next>
+                    <block type="eventHTMLElem" id="SOMdE2A5CNC/?.vp}w:$">
+                      <field name="EVENT">click</field>
+                      <field name="PARENT">FALSE</field>
+                      <value name="ID">
+                        <shadow type="text" id="I2k*%LhLRA2!T:lm+p0w">
+                          <field name="TEXT">boton4</field>
+                        </shadow>
+                      </value>
+                      <statement name="DO">
+                        <block type="tweenCameraExt" id="pn_kK])M-nE-eYdKssgV">
+                          <mutation xmlns="http://www.w3.org/1999/xhtml" whenfinishedslot="false"></mutation>
+                          <field name="MOVEMENT_TYPE">LINEAR</field>
+                          <value name="POSITION">
+                            <block type="objectList" id="K$;`?oEgyYnS4CN7jnjF">
+                              <field name="FIELDNAME">campin4</field>
+                            </block>
+                          </value>
+                          <value name="LOOKAT">
+                            <block type="objectList" id="IR7fmei?n`~q3#0Q^]j=">
+                              <field name="FIELDNAME">pin4</field>
+                            </block>
+                          </value>
+                          <value name="DURATION">
+                            <shadow type="math_number" id="F(ta*C^,|WDGY)j$slVg">
+                              <field name="NUM">1</field>
+                            </shadow>
+                          </value>
+                        </block>
+                      </statement>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="createCSSRule" id="?7lAzOl}Zx4OyMc#D;:T" x="-630" y="-1190">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" mediaruleslot="false"></mutation>
+      <field name="PARENT">FALSE</field>
+      <value name="CSS_RULE">
+        <shadow type="text" id="#+/.5L%g*0G]he;O*[6@">
+          <field name="TEXT">.botonCSS6</field>
+        </shadow>
+      </value>
+      <value name="CSS_RULE_CONT">
+        <shadow type="cssStyleList" id="Vo$E@~WYczFodtKPLZek">
+          <mutation xmlns="http://www.w3.org/1999/xhtml">
+            <prop name="color" shadowvalue="null"></prop>
+          </mutation>
+          <value name="PROP0">
+            <shadow type="text" id="%kER,2{RnNk~04{-KZ08">
+              <field name="TEXT">red</field>
+            </shadow>
+          </value>
+        </shadow>
+        <block type="textMultiline" id="3|qcsVQx:AbNDrwgNqRH">
+          <field name="HIGHLIGHT_MODE">css</field>
+          <field name="TEXT" editor-height="9" editor-width="544.5555555555555">width: 32px;&amp;#10;height: 32px;&amp;#10;background-image: url("./media/favicon-32x32.png");&amp;#10;top: 0px;&amp;#10;left: 0px;&amp;#10;cursor: pointer;&amp;#10;border-radius: 16px</field>
+        </block>
+      </value>
+      <next>
+        <block type="addHTMLElement" id="Ea|AYw@^%(xAAFK5c8@(">
+          <field name="ELEMENT">div</field>
+          <field name="MODE">TO</field>
+          <field name="PARENT">FALSE</field>
+          <value name="ID">
+            <shadow type="text" id="!`QOI)Qfq_RVZaWP?pGA">
+              <field name="TEXT">boton6</field>
+            </shadow>
+          </value>
+          <value name="TARGET_ID">
+            <shadow type="DOMObjectSelector" id="Vs3hVTI*Px9-8w?,6EF2">
+              <field name="DOM_OBJECT">CONTAINER</field>
+            </shadow>
+          </value>
+          <next>
+            <block type="setHTMLElemAttribute" id="7FL6?(#N-02QVD?x|:)T">
+              <field name="ATTRIBUTE">className</field>
+              <field name="PARENT">FALSE</field>
+              <value name="VALUE">
+                <shadow type="text" id="fB#gJ^OrA!PZ?6U|6CH@">
+                  <field name="TEXT">botonCSS6</field>
+                </shadow>
+              </value>
+              <value name="ID">
+                <shadow type="text" id="!F.{D4U*Cy}shspaIH3:">
+                  <field name="TEXT">boton6</field>
+                </shadow>
+              </value>
+              <next>
+                <block type="bindHTMLObject" id="C%hf=d/j{:]~O501@RZM">
+                  <field name="PARENT">FALSE</field>
+                  <value name="ID">
+                    <shadow type="text" id="MX08WxL90?%QGn}(4Skh">
+                      <field name="TEXT">boton6</field>
+                    </shadow>
+                  </value>
+                  <value name="OBJECTINPUT">
+                    <shadow type="objectList" id="{uSA4$L}5p94+OH=zME.">
+                      <field name="FIELDNAME">campinm6</field>
+                    </shadow>
+                  </value>
+                  <next>
+                    <block type="eventHTMLElem" id="At$eW[YuKc;}`?N@sA@q">
+                      <field name="EVENT">click</field>
+                      <field name="PARENT">FALSE</field>
+                      <value name="ID">
+                        <shadow type="text" id="@s/y`2(oR(XcjO,|[l|`">
+                          <field name="TEXT">boton6</field>
+                        </shadow>
+                      </value>
+                      <statement name="DO">
+                        <block type="tweenCameraExt" id="^S3N~T=40j*%eSq$~K*3">
+                          <mutation xmlns="http://www.w3.org/1999/xhtml" whenfinishedslot="false"></mutation>
+                          <field name="MOVEMENT_TYPE">LINEAR</field>
+                          <value name="POSITION">
+                            <block type="objectList" id="+m*XJ27TpytU~H*w.[([">
+                              <field name="FIELDNAME">campinm6</field>
+                            </block>
+                          </value>
+                          <value name="LOOKAT">
+                            <block type="objectList" id="h[*0[U7,cV0w/C{ls1,T">
+                              <field name="FIELDNAME">pin 6</field>
+                            </block>
+                          </value>
+                          <value name="DURATION">
+                            <shadow type="math_number" id="!F:_{wSDG7?;R_VSPJ69">
+                              <field name="NUM">1</field>
+                            </shadow>
+                          </value>
+                        </block>
+                      </statement>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="createCSSRule" id="F([QqrT`tt1kQ?t]PztJ" x="-2770" y="-690">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" mediaruleslot="false"></mutation>
+      <field name="PARENT">FALSE</field>
+      <value name="CSS_RULE">
+        <shadow type="text" id="R37NQpDm.C*s{2cLz+o4">
+          <field name="TEXT">.botonCSS</field>
+        </shadow>
+      </value>
+      <value name="CSS_RULE_CONT">
+        <shadow type="cssStyleList" id="Vo$E@~WYczFodtKPLZek">
+          <mutation xmlns="http://www.w3.org/1999/xhtml">
+            <prop name="color" shadowvalue="null"></prop>
+          </mutation>
+          <value name="PROP0">
+            <shadow type="text" id="%kER,2{RnNk~04{-KZ08">
+              <field name="TEXT">red</field>
+            </shadow>
+          </value>
+        </shadow>
+        <block type="textMultiline" id="`M)sWDU}|,:?=|yrMA!;">
+          <field name="HIGHLIGHT_MODE">css</field>
+          <field name="TEXT" editor-height="9" editor-width="544.5555555555555">width: 32px;&amp;#10;height: 32px;&amp;#10;background-image: url("./media/favicon-32x32.png");&amp;#10;top: 0px;&amp;#10;left: 0px;&amp;#10;cursor: pointer;&amp;#10;border-radius: 16px</field>
+        </block>
+      </value>
+      <next>
+        <block type="addHTMLElement" id="qyR15:W(!Z}+b:9y[.^1">
+          <field name="ELEMENT">div</field>
+          <field name="MODE">TO</field>
+          <field name="PARENT">FALSE</field>
+          <value name="ID">
+            <shadow type="text" id="D}0bCxNOV@P!dU)SQe=!">
+              <field name="TEXT">boton</field>
+            </shadow>
+          </value>
+          <value name="TARGET_ID">
+            <shadow type="DOMObjectSelector" id=",;3ODEow+1*l}v]C{|NI">
+              <field name="DOM_OBJECT">CONTAINER</field>
+            </shadow>
+          </value>
+          <next>
+            <block type="setHTMLElemAttribute" id="-+bMHkmybA0o0F0HlBa*">
+              <field name="ATTRIBUTE">className</field>
+              <field name="PARENT">FALSE</field>
+              <value name="VALUE">
+                <shadow type="text" id="+96qTX=1pJDLfe8dMaP@">
+                  <field name="TEXT">botonCSS</field>
+                </shadow>
+              </value>
+              <value name="ID">
+                <shadow type="text" id="JpS9GgDjL0r_mM7mku,h">
+                  <field name="TEXT">boton</field>
+                </shadow>
+              </value>
+              <next>
+                <block type="bindHTMLObject" id="2gYlJTo?$(Ul-s3bfX}]">
+                  <field name="PARENT">FALSE</field>
+                  <value name="ID">
+                    <shadow type="text" id="1gT:Qye%Mq0xs5Cp`kN8">
+                      <field name="TEXT">boton</field>
+                    </shadow>
+                  </value>
+                  <value name="OBJECTINPUT">
+                    <shadow type="objectList" id=";d!H_s*PX{[V+E31I!Si">
+                      <field name="FIELDNAME">mirapin1</field>
+                    </shadow>
+                  </value>
+                  <next>
+                    <block type="eventHTMLElem" id="piC,14+ErI6*^:~#VJ=T">
+                      <field name="EVENT">click</field>
+                      <field name="PARENT">FALSE</field>
+                      <value name="ID">
+                        <shadow type="text" id="r3}Fv5JnxC7Fs[|Wit7J">
+                          <field name="TEXT">boton</field>
+                        </shadow>
+                      </value>
+                      <statement name="DO">
+                        <block type="tweenCameraExt" id="8`S0$J$El^LR;{_xV$-;">
+                          <mutation xmlns="http://www.w3.org/1999/xhtml" whenfinishedslot="false"></mutation>
+                          <field name="MOVEMENT_TYPE">LINEAR</field>
+                          <value name="POSITION">
+                            <block type="objectList" id="xPo[XlKL*QoX(I+v-54P">
+                              <field name="FIELDNAME">mirapin1</field>
+                            </block>
+                          </value>
+                          <value name="LOOKAT">
+                            <block type="objectList" id="~/xA%7S1qP]8HBMs21iJ">
+                              <field name="FIELDNAME">campintu,1</field>
+                            </block>
+                          </value>
+                          <value name="DURATION">
+                            <shadow type="math_number" id="{KE{V,%p{*%*KJNyjxPy">
+                              <field name="NUM">1</field>
+                            </shadow>
+                          </value>
+                        </block>
+                      </statement>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="createCSSRule" id="7.d-[M=+z{Co!E9bE$0P" x="-1730" y="-690">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" mediaruleslot="false"></mutation>
+      <field name="PARENT">FALSE</field>
+      <value name="CSS_RULE">
+        <shadow type="text" id="!~j+3]b}(5%`!Z*)X6M5">
+          <field name="TEXT">.botonCSS2</field>
+        </shadow>
+      </value>
+      <value name="CSS_RULE_CONT">
+        <shadow type="cssStyleList" id="Vo$E@~WYczFodtKPLZek">
+          <mutation xmlns="http://www.w3.org/1999/xhtml">
+            <prop name="color" shadowvalue="null"></prop>
+          </mutation>
+          <value name="PROP0">
+            <shadow type="text" id="%kER,2{RnNk~04{-KZ08">
+              <field name="TEXT">red</field>
+            </shadow>
+          </value>
+        </shadow>
+        <block type="textMultiline" id="4p#$lK}$]Gf*pysq#Z_i">
+          <field name="HIGHLIGHT_MODE">css</field>
+          <field name="TEXT" editor-height="9" editor-width="544.5555555555555">width: 32px;&amp;#10;height: 32px;&amp;#10;background-image:url("./media/favicon-32x32.png");&amp;#10;top: 0px;&amp;#10;left: 0px;&amp;#10;cursor: pointer;&amp;#10;border-radius: 16px</field>
+        </block>
+      </value>
+      <next>
+        <block type="addHTMLElement" id="zdphe1@zM^0./3+@MLX~">
+          <field name="ELEMENT">div</field>
+          <field name="MODE">TO</field>
+          <field name="PARENT">FALSE</field>
+          <value name="ID">
+            <shadow type="text" id="t})4tQChBO3-br+][2]r">
+              <field name="TEXT">boton2</field>
+            </shadow>
+          </value>
+          <value name="TARGET_ID">
+            <shadow type="DOMObjectSelector" id="{OLOL[vjnA~Ba$%Omz^i">
+              <field name="DOM_OBJECT">CONTAINER</field>
+            </shadow>
+          </value>
+          <next>
+            <block type="setHTMLElemAttribute" id="n2}e^F%QV`w/eECWNrvV">
+              <field name="ATTRIBUTE">className</field>
+              <field name="PARENT">FALSE</field>
+              <value name="VALUE">
+                <shadow type="text" id="q)(`|WwWpqH:a7X#7b+u">
+                  <field name="TEXT">botonCSS2</field>
+                </shadow>
+              </value>
+              <value name="ID">
+                <shadow type="text" id="EI6%ARU#Pt=??sjqQeE@">
+                  <field name="TEXT">boton2</field>
+                </shadow>
+              </value>
+              <next>
+                <block type="bindHTMLObject" id="[#=|A]$F@72VQiQ]nOY4">
+                  <field name="PARENT">FALSE</field>
+                  <value name="ID">
+                    <shadow type="text" id="YS8,ah(uf}Q8WPlP7#P+">
+                      <field name="TEXT">boton2</field>
+                    </shadow>
+                  </value>
+                  <value name="OBJECTINPUT">
+                    <shadow type="objectList" id="m[i~fUYq$jBQReupX:F:">
+                      <field name="FIELDNAME">campinm2</field>
+                    </shadow>
+                  </value>
+                  <next>
+                    <block type="eventHTMLElem" id=")]{?qX5y%3m.et[X!q`{">
+                      <field name="EVENT">click</field>
+                      <field name="PARENT">FALSE</field>
+                      <value name="ID">
+                        <shadow type="text" id="VH*[jaNrOH@h#zc8/wIf">
+                          <field name="TEXT">boton2</field>
+                        </shadow>
+                      </value>
+                      <statement name="DO">
+                        <block type="tweenCameraExt" id=",t.`7P/f}pIKgP5%!w;A">
+                          <mutation xmlns="http://www.w3.org/1999/xhtml" whenfinishedslot="false"></mutation>
+                          <field name="MOVEMENT_TYPE">LINEAR</field>
+                          <value name="POSITION">
+                            <block type="objectList" id="p7]*X`?YJr8fpRInJTan">
+                              <field name="FIELDNAME">campinm2</field>
+                            </block>
+                          </value>
+                          <value name="LOOKAT">
+                            <block type="objectList" id=",@98m0o;AJT$uzr,d8{2">
+                              <field name="FIELDNAME">pin,2</field>
+                            </block>
+                          </value>
+                          <value name="DURATION">
+                            <shadow type="math_number" id="B{Yp`st2a5py:hI]EFsE">
+                              <field name="NUM">1</field>
+                            </shadow>
+                          </value>
+                        </block>
+                      </statement>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="createCSSRule" id="tXA9Zb*I:V,e/H(JmvbI" x="-650" y="-730">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" mediaruleslot="false"></mutation>
+      <field name="PARENT">FALSE</field>
+      <value name="CSS_RULE">
+        <shadow type="text" id="b@jy}up68}o$ck-@;Mes">
+          <field name="TEXT">.botonCSS7</field>
+        </shadow>
+      </value>
+      <value name="CSS_RULE_CONT">
+        <shadow type="cssStyleList" id="Vo$E@~WYczFodtKPLZek">
+          <mutation xmlns="http://www.w3.org/1999/xhtml">
+            <prop name="color" shadowvalue="null"></prop>
+          </mutation>
+          <value name="PROP0">
+            <shadow type="text" id="%kER,2{RnNk~04{-KZ08">
+              <field name="TEXT">red</field>
+            </shadow>
+          </value>
+        </shadow>
+        <block type="textMultiline" id="f@!wK@F)8=vQ{(on~Uja">
+          <field name="HIGHLIGHT_MODE">css</field>
+          <field name="TEXT" editor-height="9" editor-width="544.5555555555555">width: 32px;&amp;#10;height: 32px;&amp;#10;background-image: url("./media/favicon-32x32.png");&amp;#10;top: 0px;&amp;#10;left: 0px;&amp;#10;cursor: pointer;&amp;#10;border-radius: 16px</field>
+        </block>
+      </value>
+      <next>
+        <block type="addHTMLElement" id="!Iyqx]`b]6^C)+S?tUfp">
+          <field name="ELEMENT">div</field>
+          <field name="MODE">TO</field>
+          <field name="PARENT">FALSE</field>
+          <value name="ID">
+            <shadow type="text" id="M3TYp@(L+PTK3N1Nd7Cq">
+              <field name="TEXT">boton7</field>
+            </shadow>
+          </value>
+          <value name="TARGET_ID">
+            <shadow type="DOMObjectSelector" id="q?V(IJ#l@M`LC`A=3TS0">
+              <field name="DOM_OBJECT">CONTAINER</field>
+            </shadow>
+          </value>
+          <next>
+            <block type="setHTMLElemAttribute" id="fMNj-tV#7!z??RzjcQ,X">
+              <field name="ATTRIBUTE">className</field>
+              <field name="PARENT">FALSE</field>
+              <value name="VALUE">
+                <shadow type="text" id="v}XQe5C}ggYIU,OsSAXD">
+                  <field name="TEXT">botonCSS7</field>
+                </shadow>
+              </value>
+              <value name="ID">
+                <shadow type="text" id="dfenll|;)7TkI~sPwuM6">
+                  <field name="TEXT">boton7</field>
+                </shadow>
+              </value>
+              <next>
+                <block type="bindHTMLObject" id="v$?,uFt$n0nh+;Me0T;D">
+                  <field name="PARENT">FALSE</field>
+                  <value name="ID">
+                    <shadow type="text" id="vM#z+%q?5CokAEJ8_%P.">
+                      <field name="TEXT">boton7</field>
+                    </shadow>
+                  </value>
+                  <value name="OBJECTINPUT">
+                    <shadow type="objectList" id="V1[Sr$ci}7X+.,#p/9p{">
+                      <field name="FIELDNAME">campin7</field>
+                    </shadow>
+                  </value>
+                  <next>
+                    <block type="eventHTMLElem" id=":}H(*k,{n?zaPtAck1hv">
+                      <field name="EVENT">click</field>
+                      <field name="PARENT">FALSE</field>
+                      <value name="ID">
+                        <shadow type="text" id="c^rdkXXvXRSz+~,(*tHH">
+                          <field name="TEXT">boton7</field>
+                        </shadow>
+                      </value>
+                      <statement name="DO">
+                        <block type="tweenCameraExt" id="hx:Fcwe^VPeP$k_s_nc%">
+                          <mutation xmlns="http://www.w3.org/1999/xhtml" whenfinishedslot="false"></mutation>
+                          <field name="MOVEMENT_TYPE">LINEAR</field>
+                          <value name="POSITION">
+                            <block type="objectList" id="sGk$=rl3L_-:]5v^.k_h">
+                              <field name="FIELDNAME">campin7</field>
+                            </block>
+                          </value>
+                          <value name="LOOKAT">
+                            <block type="objectList" id="$U#XE!/0uPO!0H;LvJfH">
+                              <field name="FIELDNAME">pin7</field>
+                            </block>
+                          </value>
+                          <value name="DURATION">
+                            <shadow type="math_number" id="GFXaU3A:4k{O|iryC%.%">
+                              <field name="NUM">1</field>
+                            </shadow>
+                          </value>
+                        </block>
+                      </statement>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="createCSSRule" id="*}#e]RX$Ur,]j1;Y@1GK" x="-2770" y="-250">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" mediaruleslot="false"></mutation>
+      <field name="PARENT">FALSE</field>
+      <value name="CSS_RULE">
+        <shadow type="text" id="z,Lh}vjzjr[VF{RY/m.H">
+          <field name="TEXT">.botonCSS5</field>
+        </shadow>
+      </value>
+      <value name="CSS_RULE_CONT">
+        <shadow type="cssStyleList" id="Vo$E@~WYczFodtKPLZek">
+          <mutation xmlns="http://www.w3.org/1999/xhtml">
+            <prop name="color" shadowvalue="null"></prop>
+          </mutation>
+          <value name="PROP0">
+            <shadow type="text" id="%kER,2{RnNk~04{-KZ08">
+              <field name="TEXT">red</field>
+            </shadow>
+          </value>
+        </shadow>
+        <block type="textMultiline" id="Ccd):q6.yxnZa5+Cx]4k">
+          <field name="HIGHLIGHT_MODE">css</field>
+          <field name="TEXT" editor-height="9" editor-width="544.5555555555555">width: 32px;&amp;#10;height: 32px;&amp;#10;background-image: url("./media/favicon-32x32.png");&amp;#10;top: 0px;&amp;#10;left: 0px;&amp;#10;cursor: pointer;&amp;#10;border-radius: 16px</field>
+        </block>
+      </value>
+      <next>
+        <block type="addHTMLElement" id="$~NbTWvAkWPO%U01YRCi">
+          <field name="ELEMENT">div</field>
+          <field name="MODE">TO</field>
+          <field name="PARENT">FALSE</field>
+          <value name="ID">
+            <shadow type="text" id="TKBY*~XWc@RpOeu81`P_">
+              <field name="TEXT">boton5</field>
+            </shadow>
+          </value>
+          <value name="TARGET_ID">
+            <shadow type="DOMObjectSelector" id="}Z#YD1#i%L-mNh#/mrfG">
+              <field name="DOM_OBJECT">CONTAINER</field>
+            </shadow>
+          </value>
+          <next>
+            <block type="setHTMLElemAttribute" id="OM3|m!T0YiS4VsV62I}!">
+              <field name="ATTRIBUTE">className</field>
+              <field name="PARENT">FALSE</field>
+              <value name="VALUE">
+                <shadow type="text" id=":0j14Zv=bN7T|H6B6Y3+">
+                  <field name="TEXT">botonCSS5</field>
+                </shadow>
+              </value>
+              <value name="ID">
+                <shadow type="text" id="b8@5;A[@3(*6]dpg_hiE">
+                  <field name="TEXT">boton5</field>
+                </shadow>
+              </value>
+              <next>
+                <block type="bindHTMLObject" id="$B*4}#DRJcK{;=7Ae[Ft">
+                  <field name="PARENT">FALSE</field>
+                  <value name="ID">
+                    <shadow type="text" id="%YuPNMI~UQ1#.f6A2TwC">
+                      <field name="TEXT">boton5</field>
+                    </shadow>
+                  </value>
+                  <value name="OBJECTINPUT">
+                    <shadow type="objectList" id="bNPu[Kda,/UXN4=AkF0,">
+                      <field name="FIELDNAME">campinm5</field>
+                    </shadow>
+                  </value>
+                  <next>
+                    <block type="eventHTMLElem" id="{pUY;WF*7xHFVGw;_(Y|">
+                      <field name="EVENT">click</field>
+                      <field name="PARENT">FALSE</field>
+                      <value name="ID">
+                        <shadow type="text" id="46lHQi,hecp/rSiji~J7">
+                          <field name="TEXT">boton5</field>
+                        </shadow>
+                      </value>
+                      <statement name="DO">
+                        <block type="tweenCameraExt" id="2iwCZC/$F3vH/MD+D?wE">
+                          <mutation xmlns="http://www.w3.org/1999/xhtml" whenfinishedslot="false"></mutation>
+                          <field name="MOVEMENT_TYPE">LINEAR</field>
+                          <value name="POSITION">
+                            <block type="objectList" id="1DD3*+c4NVzZEf~Unv-L">
+                              <field name="FIELDNAME">campinm5</field>
+                            </block>
+                          </value>
+                          <value name="LOOKAT">
+                            <block type="objectList" id="x5/.~!QWv2:z/n]3`uxS">
+                              <field name="FIELDNAME">pin 5</field>
+                            </block>
+                          </value>
+                          <value name="DURATION">
+                            <shadow type="math_number" id="p`Ak)2OySQR9_18%h3?z">
+                              <field name="NUM">1</field>
+                            </shadow>
+                          </value>
+                        </block>
+                      </statement>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="createCSSRule" id="6@:i7$CTczjY@b7x%(3N" x="-1630" y="-230">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" mediaruleslot="false"></mutation>
+      <field name="PARENT">FALSE</field>
+      <value name="CSS_RULE">
+        <shadow type="text" id="9JfFKazmV`6#p$[.7g+L">
+          <field name="TEXT">.botonCSS9</field>
+        </shadow>
+      </value>
+      <value name="CSS_RULE_CONT">
+        <shadow type="cssStyleList" id="Vo$E@~WYczFodtKPLZek">
+          <mutation xmlns="http://www.w3.org/1999/xhtml">
+            <prop name="color" shadowvalue="null"></prop>
+          </mutation>
+          <value name="PROP0">
+            <shadow type="text" id="%kER,2{RnNk~04{-KZ08">
+              <field name="TEXT">red</field>
+            </shadow>
+          </value>
+        </shadow>
+        <block type="textMultiline" id="C86[].*plF0aIx3Okic)">
+          <field name="HIGHLIGHT_MODE">css</field>
+          <field name="TEXT" editor-height="9" editor-width="544.5555555555555">width: 32px;&amp;#10;height: 32px;&amp;#10;background-image: url("./media/favicon-32x32.png");&amp;#10;top: 0px;&amp;#10;left: 0px;&amp;#10;cursor: pointer;&amp;#10;border-radius: 16px</field>
+        </block>
+      </value>
+      <next>
+        <block type="addHTMLElement" id="{O4KjaAh;*o%Ba|ouNYV">
+          <field name="ELEMENT">div</field>
+          <field name="MODE">TO</field>
+          <field name="PARENT">FALSE</field>
+          <value name="ID">
+            <shadow type="text" id="z:mB-;SXWDz@zK#}soAz">
+              <field name="TEXT">boton9</field>
+            </shadow>
+          </value>
+          <value name="TARGET_ID">
+            <shadow type="DOMObjectSelector" id="t%WOFCXjS`m0v:-Lu#B1">
+              <field name="DOM_OBJECT">CONTAINER</field>
+            </shadow>
+          </value>
+          <next>
+            <block type="setHTMLElemAttribute" id="3XiVTWR#-EDj#l7^$#Wz">
+              <field name="ATTRIBUTE">className</field>
+              <field name="PARENT">FALSE</field>
+              <value name="VALUE">
+                <shadow type="text" id="lD/eqI{F-[kA5b(.Y#[u">
+                  <field name="TEXT">botonCSS9</field>
+                </shadow>
+              </value>
+              <value name="ID">
+                <shadow type="text" id="SkAFRb$gG?~Me2u)9UjF">
+                  <field name="TEXT">boton9</field>
+                </shadow>
+              </value>
+              <next>
+                <block type="bindHTMLObject" id="*/`*_1hs2LN(-K@4{WxK">
+                  <field name="PARENT">FALSE</field>
+                  <value name="ID">
+                    <shadow type="text" id=":{6w?Rt99:+^L-B`q0g1">
+                      <field name="TEXT">boton9</field>
+                    </shadow>
+                  </value>
+                  <value name="OBJECTINPUT">
+                    <shadow type="objectList" id="9p*kO}ja;o.P[H%R1WOR">
+                      <field name="FIELDNAME">campinm9</field>
+                    </shadow>
+                  </value>
+                  <next>
+                    <block type="eventHTMLElem" id="_c8efN~iWpcrMX^MI]0G">
+                      <field name="EVENT">click</field>
+                      <field name="PARENT">FALSE</field>
+                      <value name="ID">
+                        <shadow type="text" id=".oTlmmy43$DVs~$A6Pod">
+                          <field name="TEXT">boton9</field>
+                        </shadow>
+                      </value>
+                      <statement name="DO">
+                        <block type="tweenCameraExt" id="s^==h^0dN/Vw^^wepLVE">
+                          <mutation xmlns="http://www.w3.org/1999/xhtml" whenfinishedslot="false"></mutation>
+                          <field name="MOVEMENT_TYPE">LINEAR</field>
+                          <value name="POSITION">
+                            <block type="objectList" id="LxC9^T.DF.mk+*SZ{nWJ">
+                              <field name="FIELDNAME">campinm9</field>
+                            </block>
+                          </value>
+                          <value name="LOOKAT">
+                            <block type="objectList" id="X|p~cp26jdNt=ba5AeS#">
+                              <field name="FIELDNAME">pint 9</field>
+                            </block>
+                          </value>
+                          <value name="DURATION">
+                            <shadow type="math_number" id="=0AMA[UGg9yYgg:Sor3t">
+                              <field name="NUM">1</field>
+                            </shadow>
+                          </value>
+                        </block>
+                      </statement>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="createCSSRule" id="E8E9J.IE1i]S4$93q~y-" x="-570" y="-250">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" mediaruleslot="false"></mutation>
+      <field name="PARENT">FALSE</field>
+      <value name="CSS_RULE">
+        <shadow type="text" id="e/+1yw7==FD@L{Y/w]yM">
+          <field name="TEXT">.botonCSS8</field>
+        </shadow>
+      </value>
+      <value name="CSS_RULE_CONT">
+        <shadow type="cssStyleList" id="Vo$E@~WYczFodtKPLZek">
+          <mutation xmlns="http://www.w3.org/1999/xhtml">
+            <prop name="color" shadowvalue="null"></prop>
+          </mutation>
+          <value name="PROP0">
+            <shadow type="text" id="%kER,2{RnNk~04{-KZ08">
+              <field name="TEXT">red</field>
+            </shadow>
+          </value>
+        </shadow>
+        <block type="textMultiline" id="{*faId?$H`3(9GsNE%nq">
+          <field name="HIGHLIGHT_MODE">css</field>
+          <field name="TEXT" editor-height="9" editor-width="544.5555555555555">width: 32px;&amp;#10;height: 32px;&amp;#10;background-image: url("./media/favicon-32x32.png");&amp;#10;top: 0px;&amp;#10;left: 0px;&amp;#10;cursor: pointer;&amp;#10;border-radius: 16px</field>
+        </block>
+      </value>
+      <next>
+        <block type="addHTMLElement" id="KPN]BTPSk)ieP7n`$j=i">
+          <field name="ELEMENT">div</field>
+          <field name="MODE">TO</field>
+          <field name="PARENT">FALSE</field>
+          <value name="ID">
+            <shadow type="text" id=",KO[f/BcnhNa#3%)h/(*">
+              <field name="TEXT">boton8</field>
+            </shadow>
+          </value>
+          <value name="TARGET_ID">
+            <shadow type="DOMObjectSelector" id="u`+P)G4$:=T@/v_`xJt)">
+              <field name="DOM_OBJECT">CONTAINER</field>
+            </shadow>
+          </value>
+          <next>
+            <block type="setHTMLElemAttribute" id="a=#kakl)QDZ*u;E]YD@s">
+              <field name="ATTRIBUTE">className</field>
+              <field name="PARENT">FALSE</field>
+              <value name="VALUE">
+                <shadow type="text" id="gJTh)0?PLSd0(%U^Bd53">
+                  <field name="TEXT">botonCSS8</field>
+                </shadow>
+              </value>
+              <value name="ID">
+                <shadow type="text" id="Qa?#s%}cQ3HFZ-ir?`=!">
+                  <field name="TEXT">boton8</field>
+                </shadow>
+              </value>
+              <next>
+                <block type="bindHTMLObject" id="zahonBp#aB$X;tX]9Gva">
+                  <field name="PARENT">FALSE</field>
+                  <value name="ID">
+                    <shadow type="text" id="DQVN[rmX,a|DI+~W|)Lm">
+                      <field name="TEXT">boton8</field>
+                    </shadow>
+                  </value>
+                  <value name="OBJECTINPUT">
+                    <shadow type="objectList" id="UAvLppp-nw6=*_Ar`LD,">
+                      <field name="FIELDNAME">campinm8</field>
+                    </shadow>
+                  </value>
+                  <next>
+                    <block type="eventHTMLElem" id="=xga.RbQxj(`:mn.a`4*">
+                      <field name="EVENT">click</field>
+                      <field name="PARENT">FALSE</field>
+                      <value name="ID">
+                        <shadow type="text" id="+m}W-YU,?peaP:}iTKd-">
+                          <field name="TEXT">boton8</field>
+                        </shadow>
+                      </value>
+                      <statement name="DO">
+                        <block type="tweenCameraExt" id="5zWUUz*$XC9J)4cUbvhO">
+                          <mutation xmlns="http://www.w3.org/1999/xhtml" whenfinishedslot="false"></mutation>
+                          <field name="MOVEMENT_TYPE">LINEAR</field>
+                          <value name="POSITION">
+                            <block type="objectList" id="A^(_|V;Lb(a.=wxfvC,5">
+                              <field name="FIELDNAME">campinm8</field>
+                            </block>
+                          </value>
+                          <value name="LOOKAT">
+                            <block type="objectList" id="N5WGfl7M0xl`]}pRnxsM">
+                              <field name="FIELDNAME">pin 8</field>
+                            </block>
+                          </value>
+                          <value name="DURATION">
+                            <shadow type="math_number" id="1m%S!*Rz@z^rymt|##F]">
+                              <field name="NUM">1</field>
+                            </shadow>
+                          </value>
+                        </block>
+                      </statement>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="createCSSRule" id="+0gF:3[1JmsFF^3I|Y_W" x="-2790" y="190">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" mediaruleslot="false"></mutation>
+      <field name="PARENT">FALSE</field>
+      <value name="CSS_RULE">
+        <shadow type="text" id="se2wyMQd{aT?:$iU[=pw">
+          <field name="TEXT">.botonCSS10</field>
+        </shadow>
+      </value>
+      <value name="CSS_RULE_CONT">
+        <shadow type="cssStyleList" id="Vo$E@~WYczFodtKPLZek">
+          <mutation xmlns="http://www.w3.org/1999/xhtml">
+            <prop name="color" shadowvalue="null"></prop>
+          </mutation>
+          <value name="PROP0">
+            <shadow type="text" id="%kER,2{RnNk~04{-KZ08">
+              <field name="TEXT">red</field>
+            </shadow>
+          </value>
+        </shadow>
+        <block type="textMultiline" id="tj$%1YOS00FV|+Y2T2~~">
+          <field name="HIGHLIGHT_MODE">css</field>
+          <field name="TEXT" editor-height="9" editor-width="544.5555555555555">width: 32px;&amp;#10;height: 32px;&amp;#10;background-image: url("./media/favicon-32x32.png");&amp;#10;top: 0px;&amp;#10;left: 0px;&amp;#10;cursor: pointer;&amp;#10;border-radius: 16px</field>
+        </block>
+      </value>
+      <next>
+        <block type="addHTMLElement" id="u;%MF]|4~U8e*v6wcRpT">
+          <field name="ELEMENT">div</field>
+          <field name="MODE">TO</field>
+          <field name="PARENT">FALSE</field>
+          <value name="ID">
+            <shadow type="text" id="2K`LDqm2:BB3jS$vp@cl">
+              <field name="TEXT">boton10</field>
+            </shadow>
+          </value>
+          <value name="TARGET_ID">
+            <shadow type="DOMObjectSelector" id="L6PeIcsrjZY(ve7hY82p">
+              <field name="DOM_OBJECT">CONTAINER</field>
+            </shadow>
+          </value>
+          <next>
+            <block type="setHTMLElemAttribute" id="bn@baP9r}A)(kim_xhp{">
+              <field name="ATTRIBUTE">className</field>
+              <field name="PARENT">FALSE</field>
+              <value name="VALUE">
+                <shadow type="text" id="hR|F=%X11Yp/?)a`+CiK">
+                  <field name="TEXT">botonCSS10</field>
+                </shadow>
+              </value>
+              <value name="ID">
+                <shadow type="text" id="1^,h4JS)w)7vK/D7xV{1">
+                  <field name="TEXT">boton10</field>
+                </shadow>
+              </value>
+              <next>
+                <block type="bindHTMLObject" id="7ayZ:qLqww8`G:Iitc-Z">
+                  <field name="PARENT">FALSE</field>
+                  <value name="ID">
+                    <shadow type="text" id="9W;_,j0|$twz`uH%/6GR">
+                      <field name="TEXT">boton10</field>
+                    </shadow>
+                  </value>
+                  <value name="OBJECTINPUT">
+                    <shadow type="objectList" id="3YIXYEvFC1zVmJ^dfEus">
+                      <field name="FIELDNAME">campin10</field>
+                    </shadow>
+                  </value>
+                  <next>
+                    <block type="eventHTMLElem" id="KN.OW!n,(/@*AaW?HC-p">
+                      <field name="EVENT">click</field>
+                      <field name="PARENT">FALSE</field>
+                      <value name="ID">
+                        <shadow type="text" id="_pZmWWokU+KItIhox#!~">
+                          <field name="TEXT">boton10</field>
+                        </shadow>
+                      </value>
+                      <statement name="DO">
+                        <block type="tweenCameraExt" id="/+1_}6oeHjT_S53jwEDb">
+                          <mutation xmlns="http://www.w3.org/1999/xhtml" whenfinishedslot="false"></mutation>
+                          <field name="MOVEMENT_TYPE">LINEAR</field>
+                          <value name="POSITION">
+                            <block type="objectList" id="/AUlNZxC4gtHHmGK:i@(">
+                              <field name="FIELDNAME">campin10</field>
+                            </block>
+                          </value>
+                          <value name="LOOKAT">
+                            <block type="objectList" id="@(,*{A9eYKH|{l8F]D!?">
+                              <field name="FIELDNAME">pin10</field>
+                            </block>
+                          </value>
+                          <value name="DURATION">
+                            <shadow type="math_number" id="nKHgU*f=Vdx*Prd?XIA`">
+                              <field name="NUM">1</field>
+                            </shadow>
+                          </value>
+                        </block>
+                      </statement>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="createCSSRule" id="Gvu}UZ9}@I[(p`((`_cN" x="-1750" y="270">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" mediaruleslot="false"></mutation>
+      <field name="PARENT">FALSE</field>
+      <value name="CSS_RULE">
+        <shadow type="text" id="HyG)H/:ab:$G)`7{e5*#">
+          <field name="TEXT">.botonCSS12</field>
+        </shadow>
+      </value>
+      <value name="CSS_RULE_CONT">
+        <shadow type="cssStyleList" id="Vo$E@~WYczFodtKPLZek">
+          <mutation xmlns="http://www.w3.org/1999/xhtml">
+            <prop name="color" shadowvalue="null"></prop>
+          </mutation>
+          <value name="PROP0">
+            <shadow type="text" id="%kER,2{RnNk~04{-KZ08">
+              <field name="TEXT">red</field>
+            </shadow>
+          </value>
+        </shadow>
+        <block type="textMultiline" id="LL-geUk}0y(F;LbqTm*+">
+          <field name="HIGHLIGHT_MODE">css</field>
+          <field name="TEXT" editor-height="9" editor-width="544.5555555555555">width: 32px;&amp;#10;height: 32px;&amp;#10;background-image: url("./media/favicon-32x32.png");&amp;#10;top: 0px;&amp;#10;left: 0px;&amp;#10;cursor: pointer;&amp;#10;border-radius: 16px</field>
+        </block>
+      </value>
+      <next>
+        <block type="addHTMLElement" id=",=}MsJ]EwEr}kGz~7(;/">
+          <field name="ELEMENT">div</field>
+          <field name="MODE">TO</field>
+          <field name="PARENT">FALSE</field>
+          <value name="ID">
+            <shadow type="text" id="IXCGr4m[^ms4qTVY6feW">
+              <field name="TEXT">boton12</field>
+            </shadow>
+          </value>
+          <value name="TARGET_ID">
+            <shadow type="DOMObjectSelector" id="L*XTnDlMtD_XTOL[qDZ[">
+              <field name="DOM_OBJECT">CONTAINER</field>
+            </shadow>
+          </value>
+          <next>
+            <block type="setHTMLElemAttribute" id=".`axx{r4u%:9|y?|%T_X">
+              <field name="ATTRIBUTE">className</field>
+              <field name="PARENT">FALSE</field>
+              <value name="VALUE">
+                <shadow type="text" id="YAuNn:0I6}x_V-9:Xe@X">
+                  <field name="TEXT">botonCSS12</field>
+                </shadow>
+              </value>
+              <value name="ID">
+                <shadow type="text" id="/)EGE)KtnI4ykl3`_N~`">
+                  <field name="TEXT">boton12</field>
+                </shadow>
+              </value>
+              <next>
+                <block type="bindHTMLObject" id="wr|[2@n7F~BdH$D*laFN">
+                  <field name="PARENT">FALSE</field>
+                  <value name="ID">
+                    <shadow type="text" id="c[#DLT9ElKI9Pe@}V%Pu">
+                      <field name="TEXT">boton12</field>
+                    </shadow>
+                  </value>
+                  <value name="OBJECTINPUT">
+                    <shadow type="objectList" id="pbV,wC{|S@RIJibu$B9Z">
+                      <field name="FIELDNAME">campinm12</field>
+                    </shadow>
+                  </value>
+                  <next>
+                    <block type="eventHTMLElem" id="-.({z{~(A]|(`/+T=cdj">
+                      <field name="EVENT">click</field>
+                      <field name="PARENT">FALSE</field>
+                      <value name="ID">
+                        <shadow type="text" id="T3w$9}JZ69CNhw;!SyX~">
+                          <field name="TEXT">boton12</field>
+                        </shadow>
+                      </value>
+                      <statement name="DO">
+                        <block type="tweenCameraExt" id="DqRH2Nd%I_ZTR/UGp(}$">
+                          <mutation xmlns="http://www.w3.org/1999/xhtml" whenfinishedslot="false"></mutation>
+                          <field name="MOVEMENT_TYPE">LINEAR</field>
+                          <value name="POSITION">
+                            <block type="objectList" id="OY9voG+rs4j)mc=j.F7.">
+                              <field name="FIELDNAME">campinm12</field>
+                            </block>
+                          </value>
+                          <value name="LOOKAT">
+                            <block type="objectList" id="|e=qbxQ7ak[7yk`Fk,3@">
+                              <field name="FIELDNAME">pin 12</field>
+                            </block>
+                          </value>
+                          <value name="DURATION">
+                            <shadow type="math_number" id="Po!:Q,c4FQ75F`N@1,M`">
+                              <field name="NUM">1</field>
+                            </shadow>
+                          </value>
+                        </block>
+                      </statement>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="createCSSRule" id="B3qTwB-)Rg0xkp8,5K6X" x="-2730" y="610">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" mediaruleslot="false"></mutation>
+      <field name="PARENT">FALSE</field>
+      <value name="CSS_RULE">
+        <shadow type="text" id="G%2!{}[l~iA=h-ETE3;a">
+          <field name="TEXT">.botonCSS11</field>
+        </shadow>
+      </value>
+      <value name="CSS_RULE_CONT">
+        <shadow type="cssStyleList" id="Vo$E@~WYczFodtKPLZek">
+          <mutation xmlns="http://www.w3.org/1999/xhtml">
+            <prop name="color" shadowvalue="null"></prop>
+          </mutation>
+          <value name="PROP0">
+            <shadow type="text" id="%kER,2{RnNk~04{-KZ08">
+              <field name="TEXT">red</field>
+            </shadow>
+          </value>
+        </shadow>
+        <block type="textMultiline" id="8DL^6#4*oxUO@~;7J0(o">
+          <field name="HIGHLIGHT_MODE">css</field>
+          <field name="TEXT" editor-height="9" editor-width="544.5555555555555">width: 32px;&amp;#10;height: 32px;&amp;#10;background-image: url("./media/favicon-32x32.png");&amp;#10;top: 0px;&amp;#10;left: 0px;&amp;#10;cursor: pointer;&amp;#10;border-radius: 16px</field>
+        </block>
+      </value>
+      <next>
+        <block type="addHTMLElement" id="JBZt3J3#3eyP7?[vHz*[">
+          <field name="ELEMENT">div</field>
+          <field name="MODE">TO</field>
+          <field name="PARENT">FALSE</field>
+          <value name="ID">
+            <shadow type="text" id="AF=jTw5CS61u%qu[O!V7">
+              <field name="TEXT">boton11</field>
+            </shadow>
+          </value>
+          <value name="TARGET_ID">
+            <shadow type="DOMObjectSelector" id=":A!IQp=.#bIo-iir=2tJ">
+              <field name="DOM_OBJECT">CONTAINER</field>
+            </shadow>
+          </value>
+          <next>
+            <block type="setHTMLElemAttribute" id="I^8I0WA`_dE.(*r:=s*b">
+              <field name="ATTRIBUTE">className</field>
+              <field name="PARENT">FALSE</field>
+              <value name="VALUE">
+                <shadow type="text" id="$:#lj4W?JHp{.kd#1dq9">
+                  <field name="TEXT">botonCSS11</field>
+                </shadow>
+              </value>
+              <value name="ID">
+                <shadow type="text" id="DI:@b|nzlrZLN3T^gKcz">
+                  <field name="TEXT">boton11</field>
+                </shadow>
+              </value>
+              <next>
+                <block type="bindHTMLObject" id="@7}aH%W5OQD)x$9To,kP">
+                  <field name="PARENT">FALSE</field>
+                  <value name="ID">
+                    <shadow type="text" id="M5;4+VNJtl[-|De2|B[y">
+                      <field name="TEXT">boton11</field>
+                    </shadow>
+                  </value>
+                  <value name="OBJECTINPUT">
+                    <shadow type="objectList" id="x=WOd..Q+ZK11UYSlMHq">
+                      <field name="FIELDNAME">campinm11</field>
+                    </shadow>
+                  </value>
+                  <next>
+                    <block type="eventHTMLElem" id="}|LrN.,tDnG)6PlFzU9o">
+                      <field name="EVENT">click</field>
+                      <field name="PARENT">FALSE</field>
+                      <value name="ID">
+                        <shadow type="text" id=".k`O;WO0DV,Si)H2vNDY">
+                          <field name="TEXT">boton11</field>
+                        </shadow>
+                      </value>
+                      <statement name="DO">
+                        <block type="tweenCameraExt" id="I3Ths45Q)auWR5r4~%Vv">
+                          <mutation xmlns="http://www.w3.org/1999/xhtml" whenfinishedslot="false"></mutation>
+                          <field name="MOVEMENT_TYPE">LINEAR</field>
+                          <value name="POSITION">
+                            <block type="objectList" id=",9$D4yM+VYH,y|;b7I}~">
+                              <field name="FIELDNAME">campinm11</field>
+                            </block>
+                          </value>
+                          <value name="LOOKAT">
+                            <block type="objectList" id="R`PC+g~x(I)yNsEu8%zz">
+                              <field name="FIELDNAME">pin 11</field>
+                            </block>
+                          </value>
+                          <value name="DURATION">
+                            <shadow type="math_number" id="}U#2r!njD!q@tsAJ,[Bx">
+                              <field name="NUM">1</field>
+                            </shadow>
+                          </value>
+                        </block>
+                      </statement>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="variables_set" id="zt[f2muR==F0}pT#T,y_" x="-630" y="650">
+      <field name="VAR" id="C6T9$JERroP`)n4)*:`N">animar</field>
+      <value name="VALUE">
+        <block type="text" id="0OTKBW8w3LYE-cCWg=GI">
+          <field name="TEXT">ON</field>
+        </block>
+      </value>
+      <next>
+        <block type="whenClicked" id="WtW$ov.W;TXXqQ3#^IFo" inline="false">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false" useid="false"></mutation>
+          <field name="X_RAY">FALSE</field>
+          <field name="DOUBLE_CLICK">FALSE</field>
+          <field name="LEFT_BUTTON">TRUE</field>
+          <field name="MIDDLE_BUTTON">TRUE</field>
+          <field name="RIGHT_BUTTON">TRUE</field>
+          <value name="VALUE">
+            <shadow type="objectList" id="EnHAON1`(*8?L5:hJ5DV">
+              <field name="FIELDNAME">gaseosa</field>
+            </shadow>
+          </value>
+          <statement name="DO">
+            <block type="controls_ifelse" id="agO[?5_@,I3Ez2wXS!)4">
+              <value name="IF0">
+                <block type="logic_compare" id="(z+sw0B2RXjWA?IYAtzF">
+                  <field name="OP">EQ</field>
+                  <value name="A">
+                    <block type="variables_get" id="G]KZ.XS8waZ^?ABrM9nP">
+                      <field name="VAR" id="C6T9$JERroP`)n4)*:`N">animar</field>
+                    </block>
+                  </value>
+                  <value name="B">
+                    <block type="text" id="dE[$A.RPNR*j%?qFGN{8">
+                      <field name="TEXT">ON</field>
+                    </block>
+                  </value>
+                </block>
+              </value>
+              <statement name="DO0">
+                <block type="playAnimationAdv" id=";`JF}#Sy=ml:*S1F$(K!">
+                  <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="true" enablewhenfinished="true"></mutation>
+                  <field name="REVERSED">FALSE</field>
+                  <field name="LOOP">LoopOnce</field>
+                  <value name="VALUE">
+                    <shadow type="animationList" id="$GRX:ntY}^x?wvwSV1Y1">
+                      <field name="FIELDNAME">Basura</field>
+                    </shadow>
+                  </value>
+                  <value name="FROM">
+                    <shadow type="math_number" id="IHq@mDS`r:Y{n6@KjKQ*">
+                      <field name="NUM">0</field>
+                    </shadow>
+                  </value>
+                  <value name="TO">
+                    <shadow type="math_number" id="Q}58G0h$QI3TUiEv8Cf6">
+                      <field name="NUM">100</field>
+                    </shadow>
+                  </value>
+                  <value name="SPEED">
+                    <shadow type="math_number" id="M0V|M~8cv3?}qOBu]{RP">
+                      <field name="NUM">1</field>
+                    </shadow>
+                  </value>
+                  <statement name="DO">
+                    <block type="variables_set" id="Z@N?Lk**BBi]3~WsTjLB">
+                      <field name="VAR" id="C6T9$JERroP`)n4)*:`N">animar</field>
+                      <value name="VALUE">
+                        <block type="text" id="!F~Fx;BpR}j}1z-;+o6I">
+                          <field name="TEXT">OFF</field>
+                        </block>
+                      </value>
+                    </block>
+                  </statement>
+                </block>
+              </statement>
+              <statement name="ELSE">
+                <block type="playAnimationAdv" id="gEHTi{Snl$b#$4ijlHa5">
+                  <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="true" enablewhenfinished="true"></mutation>
+                  <field name="REVERSED">TRUE</field>
+                  <field name="LOOP">LoopOnce</field>
+                  <value name="VALUE">
+                    <shadow type="animationList" id="f-84-Zf,RE}WXHzLZ,vR">
+                      <field name="FIELDNAME">Basura</field>
+                    </shadow>
+                  </value>
+                  <value name="FROM">
+                    <shadow type="math_number" id="pSvn2m,|r6:AT1yE,SD*">
+                      <field name="NUM">0</field>
+                    </shadow>
+                  </value>
+                  <value name="TO">
+                    <shadow type="math_number" id="Dgk;@oR]BR/m(hY0UJ8m">
+                      <field name="NUM">100</field>
+                    </shadow>
+                  </value>
+                  <value name="SPEED">
+                    <shadow type="math_number" id="Zz668nbHoDyCvRB@{aEu">
+                      <field name="NUM">1</field>
+                    </shadow>
+                  </value>
+                  <statement name="DO">
+                    <block type="variables_set" id="nD?bqO)-ri.{DuaY3tNl">
+                      <field name="VAR" id="C6T9$JERroP`)n4)*:`N">animar</field>
+                      <value name="VALUE">
+                        <block type="text" id="BOk;bg%Gi`Yq_B#k1N)L">
+                          <field name="TEXT">ON</field>
+                        </block>
+                      </value>
+                    </block>
+                  </statement>
+                </block>
+              </statement>
+            </block>
+          </statement>
+        </block>
+      </next>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenHovered" id="{YQiRz|mtro]G5r,!4p7" inline="false" x="-1690" y="770">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="0,o_P$[IOEpK*W=BYWG.">
+          <field name="FIELDNAME">Plane</field>
+        </shadow>
+      </value>
+      <statement name="DO_OVER">
+        <block type="setHTMLElemStyle" id=",Rs?hE^hE0i{5s5Q$v3c">
+          <field name="PROPERTY">cursor</field>
+          <field name="PARENT">FALSE</field>
+          <value name="VALUE">
+            <shadow type="cursorDropdown" id="h~t?{)K.YD7m(ME1eF/i">
+              <field name="TEXT">pointer</field>
+            </shadow>
+          </value>
+          <value name="ID">
+            <shadow type="text" id="JNnBu$yU1V:kI9?9IZhB">
+              <field name="TEXT">myElem</field>
+            </shadow>
+            <block type="DOMObjectSelector" id="27LUH$a.i402m7w,Pnq!">
+              <field name="DOM_OBJECT">BODY</field>
+            </block>
+          </value>
+        </block>
+      </statement>
+      <statement name="DO_OUT">
+        <block type="setHTMLElemStyle" id=";/;#OAYDPc^oiJIZ()KD">
+          <field name="PROPERTY">cursor</field>
+          <field name="PARENT">FALSE</field>
+          <value name="VALUE">
+            <shadow type="cursorDropdown" id=".xb9tVtUDlc3/UOt`Jl1">
+              <field name="TEXT">default</field>
+            </shadow>
+          </value>
+          <value name="ID">
+            <shadow type="text" id="JNnBu$yU1V:kI9?9IZhB">
+              <field name="TEXT">myElem</field>
+            </shadow>
+            <block type="DOMObjectSelector" id="Jr`LmwWB21k`e{A_.2,5">
+              <field name="DOM_OBJECT">BODY</field>
+            </block>
+          </value>
+        </block>
+      </statement>
+      <next>
+        <block type="variables_set" id="7z(GZ}G`T(ki4lQJ%%Dq">
+          <field name="VAR" id="9Efnov3AMydz@F($K?p`">click</field>
+          <value name="VALUE">
+            <block type="text" id="oAP$AQ(8a%3IGC~d.ueQ">
+              <field name="TEXT">ON</field>
+            </block>
+          </value>
+          <next>
+            <block type="variables_set" id="5))Q)O1Yp|^DLV+n6d+w">
+              <field name="VAR" id="]a5bZtiBb,?*$I*m(dTx">video 1</field>
+              <value name="VALUE">
+                <block type="loadVideo" id="A0Y.,VnL}L24[#8lsI_+">
+                  <value name="URL">
+                    <shadow type="text" id=".xc}z1zVLlZ@u?R$z?B~">
+                      <field name="TEXT">https://raw.githack.com/juliethkarol345-droid/video-galeria/main/video%20galeria.mp4</field>
+                    </shadow>
+                  </value>
+                </block>
+              </value>
+              <next>
+                <block type="whenClicked" id=".Vv!9Tc=+|kg.]6OG5Fp" inline="false">
+                  <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false" useid="false"></mutation>
+                  <field name="X_RAY">FALSE</field>
+                  <field name="DOUBLE_CLICK">FALSE</field>
+                  <field name="LEFT_BUTTON">TRUE</field>
+                  <field name="MIDDLE_BUTTON">TRUE</field>
+                  <field name="RIGHT_BUTTON">TRUE</field>
+                  <value name="VALUE">
+                    <shadow type="objectList" id="%-w!mdr$;a9i1|-HHPd5">
+                      <field name="FIELDNAME">Plane</field>
+                    </shadow>
+                  </value>
+                  <statement name="DO">
+                    <block type="controls_ifelse" id="qi:dGaUnlm07zB1fzMT!">
+                      <value name="IF0">
+                        <block type="logic_compare" id="K`RavsWc%!ZPp$b9[3yy">
+                          <field name="OP">EQ</field>
+                          <value name="A">
+                            <block type="variables_get" id="Ssalq?h!|-^8p!Si40@1">
+                              <field name="VAR" id="9Efnov3AMydz@F($K?p`">click</field>
+                            </block>
+                          </value>
+                          <value name="B">
+                            <block type="text" id="TQSuuA9W.d=5%@!:oiqZ">
+                              <field name="TEXT">ON</field>
+                            </block>
+                          </value>
+                        </block>
+                      </value>
+                      <statement name="DO0">
+                        <block type="replaceTexture" id="Y3YKg2SKR4^dNIn4gs!u">
+                          <mutation xmlns="http://www.w3.org/1999/xhtml" enabledoslot="true" flextexinput="false" notexsharing="true"></mutation>
+                          <field name="OLD_TEX_NAME">click.jpg</field>
+                          <value name="MATERIAL">
+                            <shadow type="materialList" id="KAXy#Wl[ydf9?Wt/:2tq">
+                              <field name="FIELDNAME">Material</field>
+                            </shadow>
+                          </value>
+                          <value name="NEW_TEX_URL">
+                            <shadow type="text" id="0Y*%c11#*_)tM.b^{@vn">
+                              <field name="TEXT">newTexture.png</field>
+                            </shadow>
+                            <block type="variables_get" id="FI.LX.=4aU?zu4XEVy5!">
+                              <field name="VAR" id="]a5bZtiBb,?*$I*m(dTx">video 1</field>
+                            </block>
+                          </value>
+                          <statement name="DO">
+                            <block type="playSound" id="OiOOFxUH9JdEc4l2Y-DD">
+                              <field name="LOOP">TRUE</field>
+                              <value name="VALUE">
+                                <block type="variables_get" id="l0CE^!3A*Va3UW1F1}q-">
+                                  <field name="VAR" id="]a5bZtiBb,?*$I*m(dTx">video 1</field>
+                                </block>
+                              </value>
+                              <next>
+                                <block type="variables_set" id="_3TdHW/Oyb!@R3PX;0/;">
+                                  <field name="VAR" id="9Efnov3AMydz@F($K?p`">click</field>
+                                  <value name="VALUE">
+                                    <block type="text" id="|.8?su5]V@V9mt`6vz9@">
+                                      <field name="TEXT">OFF</field>
+                                    </block>
+                                  </value>
+                                </block>
+                              </next>
+                            </block>
+                          </statement>
+                        </block>
+                      </statement>
+                      <statement name="ELSE">
+                        <block type="replaceTexture" id="D9SGdpuQ*!,_XGrA5%@7">
+                          <mutation xmlns="http://www.w3.org/1999/xhtml" enabledoslot="true" flextexinput="false" notexsharing="true"></mutation>
+                          <field name="OLD_TEX_NAME">click.jpg</field>
+                          <value name="MATERIAL">
+                            <shadow type="materialList" id="M?0Iu4Vi32!y^]qCW,vP">
+                              <field name="FIELDNAME">Material</field>
+                            </shadow>
+                          </value>
+                          <value name="NEW_TEX_URL">
+                            <shadow type="text" id="0Y*%c11#*_)tM.b^{@vn">
+                              <field name="TEXT">newTexture.png</field>
+                            </shadow>
+                            <block type="variables_get" id="vCZMR2-@swD.SStvUqNE">
+                              <field name="VAR" id="]a5bZtiBb,?*$I*m(dTx">video 1</field>
+                            </block>
+                          </value>
+                          <statement name="DO">
+                            <block type="pauseSound" id="1yr(mwa$Y#0n)=75*IQm">
+                              <value name="VALUE">
+                                <block type="variables_get" id="q3lF)3{,{1x__kTpXA/U">
+                                  <field name="VAR" id="]a5bZtiBb,?*$I*m(dTx">video 1</field>
+                                </block>
+                              </value>
+                              <next>
+                                <block type="variables_set" id="z%sSDA8^V.?~T9?!U}A3">
+                                  <field name="VAR" id="9Efnov3AMydz@F($K?p`">click</field>
+                                  <value name="VALUE">
+                                    <block type="text" id="4e*ZDLFQK{rOU5k/-X)Q">
+                                      <field name="TEXT">ON</field>
+                                    </block>
+                                  </value>
+                                </block>
+                              </next>
+                            </block>
+                          </statement>
+                        </block>
+                      </statement>
+                    </block>
+                  </statement>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="stopAnimation" id="_8nKlAa@4~,_tOxOOO{#" x="-910" y="950">
+      <value name="VALUE">
+        <shadow type="animationList" id="y^8X=H%x}$}8PC5=pY2n">
+          <field name="FIELDNAME">Basura</field>
+        </shadow>
+      </value>
+      <next>
+        <block type="stopAnimation" id="~}h5J~^bJcU/$De2eHy,">
+          <value name="VALUE">
+            <shadow type="animationList" id="4P4yFjdOu])xfy[PWtDS">
+              <field name="FIELDNAME">gaseosa</field>
+            </shadow>
+          </value>
+        </block>
+      </next>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="XS)I9KuH[h8gs0Xinfjb" inline="false" x="-630" y="1010">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false" useid="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <field name="DOUBLE_CLICK">FALSE</field>
+      <field name="LEFT_BUTTON">TRUE</field>
+      <field name="MIDDLE_BUTTON">TRUE</field>
+      <field name="RIGHT_BUTTON">TRUE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="2W{}4sg6~5vMa|dubO!u">
+          <field name="FIELDNAME">gaseosa</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="controls_ifelse" id="Ev7*=7-$J{@Ri0NKQERl">
+          <value name="IF0">
+            <block type="logic_compare" id="L[%`%YGNm}?=0CSc%f@+">
+              <field name="OP">EQ</field>
+              <value name="A">
+                <block type="variables_get" id="Imn?xtIv{lZRE%kc6U)3">
+                  <field name="VAR" id="C6T9$JERroP`)n4)*:`N">animar</field>
+                </block>
+              </value>
+              <value name="B">
+                <block type="text" id="6@%6kOp[vU4ipBHO8Dti">
+                  <field name="TEXT">ON</field>
+                </block>
+              </value>
+            </block>
+          </value>
+          <statement name="DO0">
+            <block type="playAnimationAdv" id="wH.J-x9N$q[?S7Dl3b6@">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="true" enablewhenfinished="true"></mutation>
+              <field name="REVERSED">FALSE</field>
+              <field name="LOOP">LoopOnce</field>
+              <value name="VALUE">
+                <shadow type="animationList" id=";U6MlGOf!Zp%]Z2nF+}y">
+                  <field name="FIELDNAME">gaseosa</field>
+                </shadow>
+              </value>
+              <value name="FROM">
+                <shadow type="math_number" id="fFHobe#SI[}0jQXBi=oN">
+                  <field name="NUM">0</field>
+                </shadow>
+              </value>
+              <value name="TO">
+                <shadow type="math_number" id="ciy:B@MKXkozpK)Ob,.8">
+                  <field name="NUM">100</field>
+                </shadow>
+              </value>
+              <value name="SPEED">
+                <shadow type="math_number" id="}Ajk-$-#)_Qwpq}H=.%*">
+                  <field name="NUM">1</field>
+                </shadow>
+              </value>
+              <statement name="DO">
+                <block type="variables_set" id="(VA@4Xcu`{=H+!w-g-H`">
+                  <field name="VAR" id="C6T9$JERroP`)n4)*:`N">animar</field>
+                  <value name="VALUE">
+                    <block type="text" id="v3k`+${Ir^i1;aEd/x8b">
+                      <field name="TEXT">OFF</field>
+                    </block>
+                  </value>
+                </block>
+              </statement>
+            </block>
+          </statement>
+          <statement name="ELSE">
+            <block type="playAnimationAdv" id="|*q^Q^GAHRgx1x-G,d!4">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="true" enablewhenfinished="true"></mutation>
+              <field name="REVERSED">TRUE</field>
+              <field name="LOOP">LoopOnce</field>
+              <value name="VALUE">
+                <shadow type="animationList" id="}9Gnst},e0g9]G**2rg)">
+                  <field name="FIELDNAME">gaseosa</field>
+                </shadow>
+              </value>
+              <value name="FROM">
+                <shadow type="math_number" id="1|`SU}I7G`{40Nh]66*y">
+                  <field name="NUM">0</field>
+                </shadow>
+              </value>
+              <value name="TO">
+                <shadow type="math_number" id="OJLz*p.3QIWWaHXh3vX:">
+                  <field name="NUM">100</field>
+                </shadow>
+              </value>
+              <value name="SPEED">
+                <shadow type="math_number" id="=KA.rPy]Xju{}eG/o3!a">
+                  <field name="NUM">1</field>
+                </shadow>
+              </value>
+              <statement name="DO">
+                <block type="variables_set" id="_tR#7T$|h$1Ib~`auGLl">
+                  <field name="VAR" id="C6T9$JERroP`)n4)*:`N">animar</field>
+                  <value name="VALUE">
+                    <block type="text" id="*D{BdVIl1y;(UnY~gfc[">
+                      <field name="TEXT">ON</field>
+                    </block>
+                  </value>
+                </block>
+              </statement>
+            </block>
+          </statement>
+        </block>
+      </statement>
+    </block>
+  </tab>
+  <editorsettings viewport-x="800.1164672851562" viewport-y="37" viewport-w="539.858" viewport-h="321" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>
